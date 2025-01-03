@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Task Manager UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h1>Sundays.</h1>
+          <h5>Menu</h5>
+            <nav>
+                <ul>
+                    <li>Dashboard</li>
+                    <li class="active">My Task</li>
+                    <li>Meal Planner</li>
+                    <li>Documents</li>
+                    <li>Receipts</li>
+                    <li class="chat">Chats <span class="badge">3</span></li>
+                </ul>
+              
+            </nav>
+          <section class="upgrade">
+            <h3 class="upgrade-btn">Upgrade your plan</h3>
+            <p1 class="para"> your trial plan ens in 12 days Upgrade your plan and unlock full potential!
+            </p1>
+            <div class="progress2">
+              <div class="progress1" style="width:30%;"></div></div>
+            <button class="seeplans">See Plans</button>
+           
+            </section>
+           <li class="set">Setting</li>
+          <li class="help">Help & Support</li>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="header">
+                <h2>My Task</h2>
+                <input type="text" placeholder="Search or type a command">
+                <button style="position: absolute;margin-left: 53%;display: ruby-text-container;cursor: pointer;">F</button>
+                <div class="profile">
+                    <img src="profile.jpg" alt="Profile Picture">
+                </div>
+            </header>
+
+            <!-- Recommended Categories -->
+            <section class="categories">
+              <h2 style="font-weight:600;">Recommended Categories</h2>
+                <button width="50px"><i class="fa fa-home" style="font-size: 25px; margin-right: 25px;margin-left: -90px;color: rgba(253,203,119,255);"></i>Home Help</button>
+                <button><i class="fa fa-search" style="font-size: 25px; margin-right: 45px;margin-left: -50px;color: #d2bdab;"></i>Plan an event</button>
+                <button><i class='fas fa-box-open'style="font-size: 25px;margin-right: 45px;margin-left: -10px;color:#b9d6f1"></i>Return to Package</button>
+                <button><i class="fa fa-gift" style="font-size:25px;margin-right: 25px; margin-left: -80px;color: #d5aae1;"></i>Sent to gift</button>
+                <button><i class="fa fa-calendar" style="font-size:25px;margin-right: 25px; margin-left: -6px;color: #e9acbf;"></i>Schedule an appointment</button>
+                <button><i class="fa fa-file-text-o" style="font-size:25px;margin-right: 25px; margin-left: -50px;color: #92d2a6;"></i>Get a passport</button>
+                <button><i class='fas fa-volleyball-ball' style='font-size:25px;margin-right: 25px; margin-left: -20px;color: #acb0f6;'></i>Find a kids Activity</button>
+                <button><i class="fa fa-plane" style="font-size:25px;margin-right: 25px; margin-left: -80px;color: #fcb573;"></i>Plan a Trip</button>
+            </section>
+
+            <section class="filter">
+              <button ><i class="fa fa-filter" style="font-size:15px;margin-right: 8px;"></i>Filter</button>
+              <button><i class="fa fa-sort" style="font-size:15px;margin-right: 8px;"></i>Sort</button>
+              <button><i class="fa fa-eye-slash" style="font-size:15px;margin-right: 8px;"></i>Hide</button>
+              <button>...</button>
+              </section>
+            <button class="newb" style="cursor: pointer;">+ New Project</button>
+          
+
+            <!-- To-Do Section -->
+            <section class="todo">
+                <h3 style="font-weight: 500;">TO-DO</h3>
+                <div class="task-card">
+                    <h4>Schedule Appointment with Endocrinologist</h4>
+                    <button class="status in-review">In Review</button>
+                    <button class="priority high">Message</button>
+                    <button class="days-left">15 Days left</button>
+                </div>
+              <div class="task-card2">
+                    <h4>Track Machine Delivery</h4>
+                    <button class="status in-review2">In Review</button>
+                    <button class="priority high2">Message</button>
+                    <button class="days-left2">15 Days left</button>
+                </div>
+                <div class="progress3">
+                  <div class="progress4" style="width:30%;"></div></div>
+              <div class="add">
+                <h4>+ Add New Project</h4>
+              </div>
+            </section>
+                  
+
+            <!-- Active Projects -->
+            <section class="projects">
+                <h3 style="font-weight: 300;">Active Projects</h3>
+                  </section>
+               <section class="todo2">
+                    <div class="task-card3">
+                    <h4>Track Machine Delivery</h4>
+                    <button class="status in-review2">In Review</button>
+                    <button class="priority high2">Message</button>
+                    <button class="days-left2">15 Days left</button>
+                </div>
+                 </section>
+                  <section class="projects">
+
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
